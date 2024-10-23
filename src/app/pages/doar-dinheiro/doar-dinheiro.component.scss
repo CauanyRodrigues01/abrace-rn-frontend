@@ -1,31 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Sylvia Angel", sans-serif;
-  background-color: #b3e5e5; /* Fundo leve e suave */
-  color: #333;
-}
-
-main {
-  padding: 20px;
-}
-
 .donation-section h2 {
   text-align: center;
-  color: #f98e9a;
+  color: var(--rosa-escuro);
   margin-bottom: 20px;
   font-family: "Montserrat", sans-serif;
 }
 
 .donation-container {
-  background-color: #f98e9a;
+  background-color: var(--rosa-escuro);
   padding: 40px;
   border-radius: 15px;
-  color: #fff;
+  color: white;
   text-align: center;
   max-width: 900px;
   margin: 0 auto;
@@ -38,8 +22,8 @@ main {
 }
 
 .donation-options div {
-  background-color: #f5c7d3;
-  color: #ffffff;
+  background-color: #F7B1BC;
+  color: white;
   padding: 20px;
   border-radius: 10px;
   width: 45%;
@@ -50,10 +34,10 @@ main {
 }
 
 button {
-  background-color: #ffffff;
+  background-color: white;
   padding: 8px 30px;
   border-radius: 10px;
-  color: #f98e9a;
+  color: var(--rosa-escuro);
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
@@ -63,8 +47,8 @@ button {
 }
 
 button:hover {
-  background-color: #71e0ce;
-  color: #ffffff;
+  background-color: var(--azul-medio);
+  color: white;
 }
 
 .kit-composition {
@@ -74,8 +58,8 @@ button:hover {
 }
 
 .kit-composition div {
-  background-color: #f5c7d3;
-  color: #ffffff;
+  background-color: #F7B1BC;
+  color: white;
   padding: 20px;
   border-radius: 10px;
   width: 45%;

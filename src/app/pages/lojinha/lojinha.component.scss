@@ -1,15 +1,7 @@
-/* Estilo para o corpo da página e fundo */
-body {
-  font-family: "Sylvia Angel", sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #bbe4e5;
-}
-
 /* Estilo para o h2 abaixo da navbar */
 h2 {
   text-align: center;
-  color: #f48494;
+  color: var(--rosa-escuro);
   font-weight: bold;
   margin: 40px 0;
   margin-top: 150px;
@@ -37,7 +29,7 @@ h2 {
   background-color: #feebee;
   width: 200px; /* Aproximadamente 5cm em telas de alta resolução */
   height: 290px; /* Aproximadamente 8cm em telas de alta resolução */
-  border: 1px solid #ddd;
+  border: 1px solid var(--rosa-escuro);;
   border-radius: 8px;
   padding: 10px;
   text-align: center;
@@ -66,7 +58,7 @@ h2 {
 }
 
 .product-name {
-  color: #1e90ff; /* Azul para o nome do produto */
+  color: var(--azul-escuro); /* Azul para o nome do produto */
   font-weight: bold;
   margin-top: 15px;
 }
@@ -77,11 +69,11 @@ h2 {
 }
 
 .product-price .currency {
-  color: #1e90ff; /* Azul para "R$" */
+  color: var(--azul-escuro); /* Azul para "R$" */
 }
 
 .product-price .amount {
-  color: #ff5470; /* Rosa para "50,00" */
+  color: var(--rosa-escuro);; /* Rosa para "50,00" */
 }
 
 /* Estilo para a barra de busca */
@@ -95,7 +87,7 @@ h2 {
   width: 0; /* Começa como 0 para ocultar inicialmente */
   height: 40px; /* Altura */
   padding: 10px; /* Espaçamento interno */
-  border: 1px solid #ccc; /* Borda */
+  border: 1px solid var(--rosa-escuro);; /* Borda */
   border-radius: 5px; /* Bordas arredondadas */
   color: #333; /* Cor do texto */
   background-color: #fff; /* Cor de fundo */
@@ -107,7 +99,7 @@ h2 {
   cursor: pointer; /* Muda o cursor ao passar o mouse sobre o ícone */
   font-size: 24px; /* Tamanho do ícone */
   margin-left: 60px;
-  color: #f48494;
+  color: var(--rosa-escuro);
 }
 
 #search:focus {

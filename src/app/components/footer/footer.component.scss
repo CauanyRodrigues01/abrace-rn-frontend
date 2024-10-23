@@ -8,7 +8,7 @@ body {
 }
 
 footer {
-  background-color: #4cc1c2; /* Cor principal */
+  background-color: var(--azul-escuro);
   padding: 20px 0;
   text-align: center;
   margin-top: auto; /* Isso empurra o footer para baixo */

@@ -1,26 +1,3 @@
-/* Estilos Globais */
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 100%;
-}
-
-body {
-  font-family: "Sylvia Angel", sans-serif;
-  background-color: #8fd3d5; /* var(--azul-background) substituído */
-  color: #4bb9ba; /* var(--azul-escuro) substituído */
-  line-height: 1.6;
-  min-height: 100vh;
-  padding: 0;
-  margin: 0;
-}
-
 /* Títulos */
 .title-primary {
   font-size: 3.5rem;
@@ -60,14 +37,14 @@ body {
 }
 
 .fundo-claro {
-  background-color: #bbe4e5; /* var(--azul-claro) substituído */
-  color: #4bb9ba; /* var(--azul-escuro) substituído */
+  background-color: var(--azul-claro);
+  color: var(--azul-escuro);
   width: 100%;
 }
 
 .fundo-escuro {
-  background-color: #8fd3d5; /* var(--azul-background) substituído */
-  color: #fff; /* var(--branco) substituído */
+  background-color: var(--azul-medio);
+  color: white;
   width: 100%;
 }
 

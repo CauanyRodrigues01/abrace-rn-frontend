@@ -1,35 +1,3 @@
-/* Estilos Globais */
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 100%;
-}
-
-body {
-  font-family: "Sylvia_Angel", sans-serif;
-  background-color: var(--azul-claro);
-  color: var(--azul-escuro);
-  line-height: 1.6;
-  min-height: 100vh;
-  padding: 0;
-  margin: 0;
-}
-
-:root {
-  --rossa-escuro: #f68597;
-  --rosa-claro: #feebee;
-  --branco: #fff;
-  --azul-escuro: #4bb9ba;
-  --azul-claro: #bbe4e5;
-  --azul-background: #8fd3d5;
-}
-
 .container {
   width: 100%;
   max-width: 82vw;
@@ -58,8 +26,8 @@ body {
 
 .card {
   background-color: var(--rosa-claro);
-  width: 100%; /* O card agora ocupa 100% do espaço disponível */
-  max-width: 22rem; /* Tamanho máximo do card */
+  width: 100%;
+  max-width: 22rem;
   height: auto;
   aspect-ratio: 3 / 4; /* Proporção do card para manter a imagem dentro das dimensões corretas */
   display: flex;
@@ -67,7 +35,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 0.625rem;
-  border: 0.125rem var(--rossa-escuro) solid;
+  border: 0.125rem var(--rosa-escuro) solid;
   transition: transform 0.3s ease;
 }
 
@@ -88,41 +56,46 @@ body {
   object-fit: cover; /* Garante que a imagem cubra o card */
 }
 
+
 .text-card {
   font-size: 1.8em;
 }
 
 @media (max-width: 1280px) {
   .title-primary {
-    width: 100%;
-    line-height: 56px;
+      width: 100%;
+      line-height: 56px;
   }
+
 }
 
 @media (max-width: 768px) {
   .container {
-    max-width: 90vw;
+      max-width: 90vw;
   }
   .galeria {
-    gap: 0.8rem;
+      gap: 0.8rem;
   }
   .title-primary {
-    font-size: 2.4rem;
-    width: 60%;
-    line-height: 36px;
+      font-size: 2.4rem;
+      width: 60%;
+      line-height: 36px;
   }
+
 }
 
 @media (max-width: 480px) {
   .title-primary {
-    font-size: 1.75rem;
-    width: 100%;
-    line-height: 30px;
+      font-size: 1.75rem;
+      width: 100%;
+      line-height: 30px;
   }
   .img-card {
-    margin-top: 10px;
+      margin-top: 10px;
   }
   .text-card {
-    margin-bottom: 10px;
+      margin-bottom: 10px;
   }
+
 }
+

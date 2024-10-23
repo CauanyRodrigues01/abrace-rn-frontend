@@ -1,2 +1,30 @@
 @import
 "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap";
+
+:root {
+  --rosa-claro: #feebee;
+  --rosa-escuro: #f68597;
+  --azul-claro: #bbe4e5;
+  --azul-medio: #8fd3d5;
+  --azul-escuro: #4bb9ba;
+}
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Sylvia Angel", sans-serif;
+  background-color: var(--azul-claro);
+  color: var(--azul-escuro);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
