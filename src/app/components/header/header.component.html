@@ -1,5 +1,5 @@
 <header class="app-header">
-  <img ngSrc="assets/Logo.png" width="80" height="60" />
+  <a class="active" href="/home"><img ngSrc="assets/Logo.png" width="80" height="60" /></a>
   <ul class="nav-links">
     <li>
       <a class="active" href="/home">Home</a>
@@ -11,14 +11,26 @@
       <a href="/lojinha">Lojinha</a>
     </li>
     <li>
-      <a href="/sobre">Sobre</a>
+      <a href="/voluntarie-se">Voluntarie-se</a>
     </li>
     <li>
-      <a href="/voluntarie-se">Voluntarie-se</a>
+      <a href="/sobre">Sobre</a>
     </li>
   </ul>
   <div class="buttons">
-    <a href="/receber" class="btn btn-receber">Receber</a>
-    <a href="/doar-inicial" class="btn btn-doar">Doar</a>
+    <a href="/receber">
+      <app-botao
+            btn-text="Receber"
+            variant="pequeno-rosa"
+        >
+        </app-botao>
+    </a>
+    <a href="/doar-inicial">
+      <app-botao
+            btn-text="Doar"
+            variant="pequeno-azul"
+        >
+        </app-botao>
+    </a>
   </div>
 </header>
