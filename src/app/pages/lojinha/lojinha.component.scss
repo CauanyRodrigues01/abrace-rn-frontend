@@ -1,16 +1,9 @@
-h2 {
-  text-align: center;
-  color: var(--rosa-escuro);
-  font-weight: bold;
-}
-
 /* Estilo para a seção de produtos */
 .product-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
-  padding: 20px;
-  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
 }
 
 @media (min-width: 800px) {

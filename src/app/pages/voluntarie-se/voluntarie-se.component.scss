@@ -1,7 +1,5 @@
 .formulario {
-  max-width: 1292px;
-  height: 1166px;
-  margin: 40px auto;
+  max-width: 1200px;
   padding: 80px;
   color: var(--rosa-escuro);
   font-size: 20px;
@@ -22,10 +20,10 @@ form {
 }
 
 ::placeholder {
-  color: rgba(255, 101, 115, 0.7);
-  font-family: "Montserrat", sans-serif;
+  color: #F9AAB6;
+  font-family: "Sylvia Angel", sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .form-row {
@@ -53,10 +51,10 @@ select,
 option,
 textarea {
   height: 64px;
-  color: var(--rosa-escuro);
-  font-family: "Montserrat", sans-serif;
+  color: #F9AAB6;
+  font-family: "Sylvia Angel", sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 200;
   border-radius: 10px;
   border: 1px solid #fff;
   background: #fff;
@@ -72,6 +70,10 @@ select:focus,
 textarea:focus {
   outline: none; /* Remove a borda padrão de foco */
   border: 1px solid var(--rosa-escuro); /* (Opcional) Define uma borda personalizada, se desejar */
+}
+
+label {
+  font-weight: 400;
 }
 
 textarea {

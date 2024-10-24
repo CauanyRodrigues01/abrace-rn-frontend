@@ -3,17 +3,6 @@
   padding: 0 !important;
 }
 
-/* Títulos */
-.title-primary {
-  font-size: 3.5rem;
-  text-align: center;
-}
-
-.title-secondary {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
 .section {
   width: 100%;
   display: flex;
@@ -21,7 +10,11 @@
   justify-content: center;
 }
 
-.content-center:not(.introducao) {
+.content-center{
+  padding: 2rem;
+}
+
+.content-center:not(#introducao-sobre) {
   flex-direction: row;
 }
 
@@ -37,21 +30,21 @@
   width: 100%;
 }
 
-/* Texto */
-.text {
+.right {
+  text-align: right;
+}
+
+.section-text h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.text-sobre {
   font-size: 1.25rem;
   text-align: justify;
   width: 700px;
   font-family: "Montserrat", sans-serif;
-}
-
-#text-introduction {
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.section-text-right {
-  text-align: right;
 }
 
 /* Imagens */
@@ -71,9 +64,9 @@ iframe {
 
 /* Estilos Responsivos */
 @media (max-width: 1024px) {
-  .title-primary {
+  /*.title-primary {
     font-size: 3rem;
-  }
+  }*/
   .title-secondary {
     font-size: 2rem;
     text-align: center;
@@ -91,8 +84,7 @@ iframe {
     text-align: center;
     gap: 10px;
   }
-  .section-text-left,
-  .section-text-right {
+  .section-text {
     margin: 0;
   }
   .section {
@@ -118,9 +110,9 @@ iframe {
 }
 
 @media (max-width: 480px) {
-  .title-primary {
+ /* .title-primary {
     font-size: 2.5rem;
-  }
+  }*/
   .title-secondary {
     font-size: 1.75rem;
     text-align: center;
