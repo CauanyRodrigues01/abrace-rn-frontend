@@ -21,16 +21,8 @@
   justify-content: center;
 }
 
-.section-intro {
-  flex-direction: column;
-}
-
-.sobre-container {
-  max-width: 1200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
+.content-center:not(.section-intro) {
+  flex-direction: row;
 }
 
 .fundo-claro {
@@ -55,16 +47,10 @@
 
 #text-introduction {
   font-size: 1.5rem;
-  margin-bottom: 20px;
   text-align: center;
 }
 
-.section-text-left {
-  margin-right: 30px;
-}
-
 .section-text-right {
-  margin-left: 30px;
   text-align: right;
 }
 

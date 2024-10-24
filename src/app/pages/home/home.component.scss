@@ -1,3 +1,8 @@
+/*o container-main do "sobre" não pode ter esses espaços por causa daquela divisão de cores entre as seções*/
+.container-main {
+  padding: 0 !important;
+}
+
 .app-section-blob {
   display: flex;
   background-color: #e4e4e4;
@@ -7,6 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  justify-content: space-between;
 }
 
 .svg-blob {

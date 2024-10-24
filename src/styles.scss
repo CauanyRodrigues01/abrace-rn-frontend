@@ -36,10 +36,21 @@ body {
 .container-main {
   flex-grow: 1; /* Faz com que o conteúdo principal ocupe o espaço entre o header e o footer */
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  justify-content: center; /* Centraliza o conteúdo dentro do main */
   margin-top: 75px; /*Margem para todas as páginas se afastarem do header*/
   padding: 2rem;
+}
+
+.content-center {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  gap: 3rem;
 }
 
 /*galeria*/
