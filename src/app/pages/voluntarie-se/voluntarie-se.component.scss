@@ -130,27 +130,6 @@ textarea {
   height: 220px;
 }
 
-button {
-  width: 413px;
-  height: 113px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  border-radius: 27px;
-  background: var(--rosa-escuro);
-  color: white;
-  padding: 15px;
-  border: none;
-  cursor: pointer;
-  font-size: 45.984px;
-  transition: background-color 0.3s ease;
-  display: block; /* Torna o botão um bloco, necessário para margin auto */
-  margin: 0 auto; /* Centraliza horizontalmente */
-}
-
-button:hover {
-  background-color: #ff3d5e;
-}
-
 /* Responsividade para telas menores */
 @media (max-width: 1024px) {
   .informacoes p {

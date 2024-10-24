@@ -201,28 +201,6 @@
     align-content: center;
   }
 
-  .container-preciso-ajuda button {
-    width: 319px;
-    height: 113px;
-    flex-shrink: 0;
-    border-radius: 30px;
-    margin: 0;
-
-    color: var(--azul-escuro);
-
-    font-family: "Montserrat", sans-serif;
-    font-size: 45.984px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    border: none;
-    cursor: pointer;
-  }
-
-  .container-preciso-ajuda button:hover {
-    background-color: #88ebcd;
-  }
-
   .container-quero-ajuda h1 {
     color: var(--rosa-escuro);
     text-align: center;
@@ -254,26 +232,6 @@
     align-content: center;
   }
 
-  .container-quero-ajuda button {
-    width: 319px;
-    height: 113px;
-    flex-shrink: 0;
-    border-radius: 30px;
-    margin: 0;
-
-    color: var(--rosa-escuro);
-
-    font-family: "Montserrat", sans-serif;
-    font-size: 45.984px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    border: none;
-    cursor: pointer;
-  }
-  .container-quero-ajuda button:hover {
-    background-color: #cca9bf;
-  }
 }
 
 .app-conhecer-ajudados {
@@ -346,24 +304,6 @@
       font-weight: 400;
       line-height: 43.624px;
       padding-right: 100px;
-    }
-    button {
-      width: 319px;
-      height: 113px;
-      flex-shrink: 0;
-      border-radius: 30px;
-      margin: 0;
-      color: var(--azul-escuro);
-      font-family: Montserrat;
-      font-size: 45.984px;
-      font-style: normal;
-      font-weight: 900;
-      line-height: normal;
-      border: none;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #88ebcd;
     }
   }
 }

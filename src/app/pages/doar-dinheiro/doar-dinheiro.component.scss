@@ -33,24 +33,6 @@
   font-family: "Montserrat", sans-serif;
 }
 
-button {
-  background-color: white;
-  padding: 8px 30px;
-  border-radius: 10px;
-  color: var(--rosa-escuro);
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  outline: none;
-  border: none;
-}
-
-button:hover {
-  background-color: var(--azul-medio);
-  color: white;
-}
-
 .kit-composition {
   display: flex;
   justify-content: space-between;
