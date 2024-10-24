@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 type BotaoVariantes = "pequeno-rosa"
-| "pequeno-azul" | "branco-letra-azul" | "branco-letra-rosa" | "rosa-letra-branca";
+| "pequeno-azul" | "branco-letra-azul" | "branco-letra-rosa" | "rosa-letra-branca" | "pequeno-branco";
 
 @Component({
   selector: 'app-botao',
