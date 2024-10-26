@@ -2,8 +2,13 @@
 <main class="container-main">
   <section class="app-section-blob">
     <div class="svg-blob">
-      <img src="./assets/blob-cortado.svg" alt="Fundo Rosa" class="svg-blob-image" height="775px" priority />
+      <img
+        src="./assets/Blob inteiro.svg"
+        alt="Fundo Rosa"
+        class="svg-blob-image"
+      />
     </div>
+
     <div class="content">
       <h1>
         Bem-vindo ao <br />
@@ -11,20 +16,34 @@
       </h1>
       <p>Nosso projeto social tem uma missão simples e cheia de amor.</p>
       <div class="social-icons">
-        <a target="_blank" href="https://www.instagram.com/abraceumrn/"><i class="fab fa-instagram"><img
-              src="./assets/instagram.svg" alt="" /></i></a>
-        <a href="#"><i class="fab fa-facebook"><img src="./assets/facebook.svg" alt="" /></i></a>
-        <a target="_blank" href="https://abrir.link/bOXtq"><i class="fab fa-whatsapp"><img src="./assets/wpp.svg"
-              alt="" /></i></a>
+        <a target="_blank" href="https://www.instagram.com/abraceumrn/">
+          <img src="./assets/instagram.svg" alt="Instagram" />
+        </a>
+        <a target="_blank" href="#">
+          <img src="./assets/facebook.svg" alt="Facebook" />
+        </a>
+        <a target="_blank" href="https://abrir.link/bOXtq">
+          <img src="./assets/wpp.svg" alt="WhatsApp" />
+        </a>
       </div>
     </div>
-    <img src="./assets/img-mulher-abracando-bebe.png" class="image-mulher-abrace-bebe" alt="Mãe abraçando bebê"
-      width="824" height="739" priority />
+
+    <img
+      src="./assets/img-mulher-abracando-bebe.png"
+      class="image-mulher-abrace-bebe"
+      alt="Mãe abraçando bebê"
+      priority
+    />
   </section>
   <section class="app-missao">
     <div>
-      <img src="./assets/svg-mulher-amamentando-bebe.svg" alt="Mulher amamentando bebe" class="svg-mulher-amamentando"
-        width="131" height="160" />
+      <img
+        src="./assets/svg-mulher-amamentando-bebe.svg"
+        alt="Mulher amamentando bebe"
+        class="svg-mulher-amamentando"
+        width="131"
+        height="160"
+      />
       <h1>Apoio às mães vulneráveis</h1>
       <p>
         Oferecemos suporte a mães em situação de vulnerabilidade, entregando
@@ -33,8 +52,13 @@
       </p>
     </div>
     <div>
-      <img src="./assets/svg-mulher-abracando-bebe.svg" alt="Mulher abracando bebe" class="svg-mulher-abracando"
-        width="158" height="160" />
+      <img
+        src="./assets/svg-mulher-abracando-bebe.svg"
+        alt="Mulher abracando bebe"
+        class="svg-mulher-abracando"
+        width="158"
+        height="160"
+      />
       <h1>Unindo quem doa e quem precisa</h1>
       <p>
         Facilitamos o encontro entre mães que precisam de apoio e pessoas
@@ -42,8 +66,13 @@
       </p>
     </div>
     <div>
-      <img src="./assets/svg-dedos-tocando.svg" alt="Dedos tocando" class="svg-dedos-tocando" width="180"
-        height="122" />
+      <img
+        src="./assets/svg-dedos-tocando.svg"
+        alt="Dedos tocando"
+        class="svg-dedos-tocando"
+        width="180"
+        height="122"
+      />
       <h1>Kits que transformam vidas</h1>
       <p>
         Cada kit doado ajuda a garantir que essas mães possam retornar para casa
@@ -52,8 +81,11 @@
     </div>
   </section>
   <section class="app-participar-doacao">
-    <img src="./assets/svg-fundo-section-doacao.svg" alt="Background doacao" class="svg-fundo-section-doacao" />
-    <img src="./assets/svg-detalhe-ondinha.svg" alt="Detalhe ondinha" class="svg-detalhe-ondinha" />
+    <img
+      src="./assets/svg-detalhe-ondinha.svg"
+      alt="Detalhe ondinha"
+      class="svg-detalhe-ondinha"
+    />
     <div class="container-preciso-ajuda">
       <h1>PRECISO DE AJUDA</h1>
       <p>
@@ -61,8 +93,9 @@
         botão e preencha seus dados. Entraremos em contato o mais rápido
         possível.
       </p>
-      <app-botao btn-text="Ajuda" variant="branco-letra-azul">
-      </app-botao>
+      <a href="/receber"
+        ><app-botao btn-text="Ajuda" variant="branco-letra-azul"> </app-botao
+      ></a>
     </div>
     <div class="container-quero-ajuda">
       <h1>QUERO</h1>
@@ -70,7 +103,9 @@
         Você pode contribuir de várias formas: doando itens usados, dinheiro, ou
         comprando produtos personalizados na nossa lojinha.
       </p>
-      <app-botao btn-text="Contribuir" variant="branco-letra-rosa"></app-botao>
+      <a href="/doar-inicial">
+        <app-botao btn-text="Contribuir" variant="branco-letra-rosa"></app-botao
+      ></a>
     </div>
   </section>
   <section class="app-conhecer-ajudados">
@@ -118,10 +153,24 @@
     </div>
     <div class="content-abaixo-de-ajudados">
       <span>Confira mais casos em nossa galeria de ajuda!</span>
-      <app-botao btn-text="Galeria" variant="branco-letra-azul"></app-botao>
+      <a href="/galeria"
+        ><app-botao btn-text="Galeria" variant="branco-letra-azul"></app-botao
+      ></a>
     </div>
 
     <div class="rolar-pra-cima"></div>
+  </section>
+  <section class="app-voluntarie-se">
+    <div class="container-voluntarie-se">
+      <h1>SEJA UM VOLUNTÁRIO E TRANSFORME VIDAS</h1>
+      <p>
+        Faça a diferença com a gente! Clique no botão abaixo e veja as várias
+        formas de apoiar essa causa. Escolha como e quando você pode ajudar!
+      </p>
+      <button>
+        <a href="/voluntarie-se">Quero ser voluntário</a>
+      </button>
+    </div>
   </section>
 </main>
 <app-botao-pra-cima></app-botao-pra-cima>
